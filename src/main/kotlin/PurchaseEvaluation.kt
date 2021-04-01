@@ -27,8 +27,7 @@ class PurchaseEvaluation : Base() {
     fun start() {
 
         println("First month fee with Tax deduction: ${firstMonthFeeWithTaxDeduction}")
-        println("First month fee without Tax deduction: ${firstMonthFeeNoTaxDeduction}")
-        println("First month pay to the property: ${firstMonthPayToTheProperty}")
+        println("First month principle: ${firstMonthPayToTheProperty}")
         println("Total monthly payment ${firstMonthFeeWithTaxDeduction + firstMonthPayToTheProperty}")
 
         println("\nGrowth rate estimate\n==================================")

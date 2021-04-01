@@ -1,5 +1,4 @@
 import data.*
-import java.time.LocalDate
 
 fun main(args: Array<String>) {
 
@@ -11,8 +10,8 @@ fun main(args: Array<String>) {
 
 fun cypressMountainViewCondo(year: Int = 10, myHouseGrowthRate: Double = 0.063){
     println("\n\nMountain view condo")
-    val mountainViewCondo = PurchaseEvaluation()
-    mountainViewCondo.init().apply {
+    val purchaseEvaluation = PurchaseEvaluation()
+    purchaseEvaluation.init().apply {
         // Set the purchase price
         housePurchasePrice = 850000.0
 
@@ -36,5 +35,5 @@ fun cypressMountainViewCondo(year: Int = 10, myHouseGrowthRate: Double = 0.063){
         houseTransactionData = CypressMountainView()
 
     }
-    mountainViewCondo.start()
+    purchaseEvaluation.start()
 }
