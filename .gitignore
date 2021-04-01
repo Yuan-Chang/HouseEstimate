@@ -1,0 +1,32 @@
+# built application files
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+buildSrc/build/
+build
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+#.classpath
+#.project
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.svn
+.idea
+.gradle
+*.iml
